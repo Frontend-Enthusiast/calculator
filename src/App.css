@@ -1,0 +1,57 @@
+body{
+  width: 80vw;
+  height: 70vh;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header{
+  width: 50vw;
+  height: 20vh;
+  margin-top: 2rem;
+  background-color: rgb(224, 243, 243);
+  color: rgb(17, 16, 16);
+  /* border-radius: 2rem; */
+  font-size: xxx-large;
+}
+.btn{
+  background-color: rgb(207, 222, 237);
+  font-size: 25px;
+  font-weight: 500;
+  border-color: lightblue;
+}
+.keypad{
+  width: 50vw;
+  height: 30vh;
+  background-color: rgb(207,222, 237) ;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.clear{
+  width: 24vw;
+  height: 8vh;
+  margin-top: 8px;
+  border-radius: 3rem;
+  background-color: rgb(240, 197, 118);
+}
+.lowerButtons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Result{
+  width: 49vw;
+  height: 5vh;
+  border: none;
+  outline: none;
+  font-size: 36px;
+  background-color:  rgb(224, 243, 243);
+}
+.App{
+  width: 50vw;
+  height: 75vh;
+  border: 2px solid black;
+  border-radius: 2rem;
+  background-color: rgb(224, 243, 243);
+}
